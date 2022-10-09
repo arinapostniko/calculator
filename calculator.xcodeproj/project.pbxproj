@@ -15,6 +15,7 @@
 		FE8282A128EC8F2C00776FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8282A028EC8F2C00776FE5 /* Assets.xcassets */; };
 		FE8282A428EC8F2C00776FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8282A228EC8F2C00776FE5 /* LaunchScreen.storyboard */; };
 		FEC9B2FC28EEC433003C0D4D /* IMG_EB4A6E9D2A7C-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FEC9B2FB28EEC433003C0D4D /* IMG_EB4A6E9D2A7C-1.jpeg */; };
+		FED1D1D328F30B7200AA32BA /* Calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = FED1D1D228F30B7200AA32BA /* Calculator.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FE8282A328EC8F2C00776FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE8282A528EC8F2C00776FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEC9B2FB28EEC433003C0D4D /* IMG_EB4A6E9D2A7C-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_EB4A6E9D2A7C-1.jpeg"; sourceTree = "<group>"; };
+		FED1D1D228F30B7200AA32BA /* Calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calculator.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				FE8282A228EC8F2C00776FE5 /* LaunchScreen.storyboard */,
 				FE8282A528EC8F2C00776FE5 /* Info.plist */,
 				FEC9B2FB28EEC433003C0D4D /* IMG_EB4A6E9D2A7C-1.jpeg */,
+				FED1D1D228F30B7200AA32BA /* Calculator.png */,
 			);
 			path = calculator;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 				FE8282A428EC8F2C00776FE5 /* LaunchScreen.storyboard in Resources */,
 				FE8282A128EC8F2C00776FE5 /* Assets.xcassets in Resources */,
 				FEC9B2FC28EEC433003C0D4D /* IMG_EB4A6E9D2A7C-1.jpeg in Resources */,
+				FED1D1D328F30B7200AA32BA /* Calculator.png in Resources */,
 				FE82829F28EC8F2B00776FE5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

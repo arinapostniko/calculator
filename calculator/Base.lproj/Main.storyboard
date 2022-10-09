@@ -52,7 +52,7 @@
                                             <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="35"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="tapNumberButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5RM-16-dLK"/>
+                                            <action selector="tapComma:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AB3-9l-KPE"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7v3-9h-eqa">
@@ -404,7 +404,7 @@
                                             <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="35"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="tapActionButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t7e-GS-z6w"/>
+                                            <action selector="tapCompute:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C9n-Lm-ANg"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -473,6 +473,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="labelField" destination="JkY-NM-oD8" id="Roq-BF-1bE"/>
                         <outlet property="labelText" destination="YzH-OH-xI1" id="arg-VV-vrB"/>
                         <outletCollection property="buttons" destination="fqP-pu-IAK" collectionClass="NSMutableArray" id="69I-fH-ng2"/>
                         <outletCollection property="buttons" destination="qvZ-b7-jNb" collectionClass="NSMutableArray" id="vwx-Xu-KhS"/>

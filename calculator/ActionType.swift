@@ -12,5 +12,5 @@ enum ActionType {
     case minus
     case multiply
     case divide
-    case nothing
+    case none
 }
