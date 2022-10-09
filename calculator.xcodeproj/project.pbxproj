@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE464B8028EF281000E133E1 /* ActionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE464B7F28EF281000E133E1 /* ActionType.swift */; };
 		FE82829828EC8F2B00776FE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE82829728EC8F2B00776FE5 /* AppDelegate.swift */; };
 		FE82829A28EC8F2B00776FE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE82829928EC8F2B00776FE5 /* SceneDelegate.swift */; };
 		FE82829C28EC8F2B00776FE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE82829B28EC8F2B00776FE5 /* ViewController.swift */; };
 		FE82829F28EC8F2B00776FE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE82829D28EC8F2B00776FE5 /* Main.storyboard */; };
 		FE8282A128EC8F2C00776FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8282A028EC8F2C00776FE5 /* Assets.xcassets */; };
 		FE8282A428EC8F2C00776FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8282A228EC8F2C00776FE5 /* LaunchScreen.storyboard */; };
+		FEC9B2FC28EEC433003C0D4D /* IMG_EB4A6E9D2A7C-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FEC9B2FB28EEC433003C0D4D /* IMG_EB4A6E9D2A7C-1.jpeg */; };
+		FED1D1D328F30B7200AA32BA /* Calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = FED1D1D228F30B7200AA32BA /* Calculator.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE464B7F28EF281000E133E1 /* ActionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionType.swift; sourceTree = "<group>"; };
 		FE82829428EC8F2B00776FE5 /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE82829728EC8F2B00776FE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE82829928EC8F2B00776FE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		FE8282A028EC8F2C00776FE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE8282A328EC8F2C00776FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE8282A528EC8F2C00776FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEC9B2FB28EEC433003C0D4D /* IMG_EB4A6E9D2A7C-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_EB4A6E9D2A7C-1.jpeg"; sourceTree = "<group>"; };
+		FED1D1D228F30B7200AA32BA /* Calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calculator.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				FE82829728EC8F2B00776FE5 /* AppDelegate.swift */,
 				FE82829928EC8F2B00776FE5 /* SceneDelegate.swift */,
 				FE82829B28EC8F2B00776FE5 /* ViewController.swift */,
+				FE464B7F28EF281000E133E1 /* ActionType.swift */,
 				FE82829D28EC8F2B00776FE5 /* Main.storyboard */,
 				FE8282A028EC8F2C00776FE5 /* Assets.xcassets */,
 				FE8282A228EC8F2C00776FE5 /* LaunchScreen.storyboard */,
 				FE8282A528EC8F2C00776FE5 /* Info.plist */,
+				FEC9B2FB28EEC433003C0D4D /* IMG_EB4A6E9D2A7C-1.jpeg */,
+				FED1D1D228F30B7200AA32BA /* Calculator.png */,
 			);
 			path = calculator;
 			sourceTree = "<group>";
@@ -127,6 +136,8 @@
 			files = (
 				FE8282A428EC8F2C00776FE5 /* LaunchScreen.storyboard in Resources */,
 				FE8282A128EC8F2C00776FE5 /* Assets.xcassets in Resources */,
+				FEC9B2FC28EEC433003C0D4D /* IMG_EB4A6E9D2A7C-1.jpeg in Resources */,
+				FED1D1D328F30B7200AA32BA /* Calculator.png in Resources */,
 				FE82829F28EC8F2B00776FE5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +152,7 @@
 				FE82829C28EC8F2B00776FE5 /* ViewController.swift in Sources */,
 				FE82829828EC8F2B00776FE5 /* AppDelegate.swift in Sources */,
 				FE82829A28EC8F2B00776FE5 /* SceneDelegate.swift in Sources */,
+				FE464B8028EF281000E133E1 /* ActionType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
